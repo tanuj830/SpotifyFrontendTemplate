@@ -1,0 +1,100 @@
+.foot{
+background-color:black;
+        height:454px;
+}
+
+.company{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.company:hover{
+    color: #1ed760;
+}
+.social_handels img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+.social_handels img:hover{
+    color: #1ed760;
+  
+}
+
+.footer_container_one{
+    justify-content: space-evenly;
+}
+div h5{
+    margin-bottom: 2em;
+
+}
+.texthov{
+color: grey;
+text-decoration: none;
+font-size: 12px;
+margin-left: 32px;
+font-weight: 500;
+}
+.texthov:hover{
+    color: #1ed760;
+}
+.insta{
+    color: white;
+    font-size: 2em;
+    margin-left: 29px;
+}
+.insta:hover{
+    color: #1ed760;
+}
+.twit{
+    color: white;
+    font-size: 2em;
+    margin-left: 29px;
+}
+.twit:hover{
+    color: #1ed760;
+}
+.fb{
+    color: white;
+    font-size: 2em;
+    margin-left: 29px;
+}
+.fb:hover{
+    color: #1ed760;
+}
+
+@media (max-width:768px){
+
+    .foot{
+        height: 80em;
+    }
+    .footer_container_one{
+        flex-direction: column;
+        /* justify-content: space-evenly;    */
+        font-size:19px ;
+    
+}
+.insta{
+   margin-left: 0;
+   margin-top: 3em;
+}
+
+
+.texthov{
+    color: grey;
+    text-decoration: none;
+    font-size: 9px;
+    margin-left: 7px;
+    font-weight: 500;
+    }
+    .con{
+        padding: 0;
+    }
+}
+@media (max-width:404) {
+    
+    .con{
+        display: flex;
+        flex-direction: column;
+    }
+}

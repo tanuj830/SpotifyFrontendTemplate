@@ -1,0 +1,58 @@
+.section1{
+    background-color: #a0c3d2;
+}
+.cont1{
+    padding-top: 9em;
+}
+.section1h2{
+    font-weight: 700;
+    font-size: 37px;
+}
+.btn1{
+    padding: 6px 40px;
+  margin-left: 18em;
+  border-radius: 20px;
+}
+.btn2{
+    padding: 6px 42px;
+  margin-right: 3em;
+  border-radius: 20px;
+  background: none;
+  border: none;
+  transition: 0.7ms ease-in-out;
+}
+.btn2:hover{
+    background-color: #bed9e4;
+    transform:scale(1) ;
+}
+
+.section2{
+    background:  rgb(180, 155, 200);
+}
+.cont2{
+    padding-top: 5em;
+}
+.section2h1{
+    font-weight: 700;
+    color: black;
+}
+.section2h3{
+    color: black;
+    font-size: 25px;
+}
+.section2h33{
+    color: black;
+    font-size: 25px;
+}
+.section2btn{
+    color:rgb(180, 155, 200) ;
+    background-color: black;
+    margin-top: 2em;
+    padding: 10px 44px;
+    font-weight: 700;
+    border-radius: 40px;
+    transition: 0.3ms ease-in-out;
+}
+.section2btn:hover{
+transform: scale(0.95);
+}

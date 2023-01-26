@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logoimg{
+    
+    width: 173px;
+    height: 43px;
+    /* margin:0 35em; */
+}
+.text1{
+    font-size: 32px;
+    font-weight: 700;
+   padding-top: 37px;
+}
+.firstbtn{
+padding: 10px 46px;
+font-weight: 700;
+border-radius: 28px;
+transition: 0.3ms ease-out;
+}
+.firstbtn:hover{
+    transform: scale(0.95);
+}.link1{
+    color: rgb(29, 185, 84);
+    font-size: 10px;
+}
+.link2{
+
+        color: rgb(29, 185, 84);
+        font-size: 10px;
+      
+}
+
+.div1{
+   flex-direction: column;
+   
+
+}
+.text2{
+    font-size: 15px;
+    color: white;
+    margin-left: 22em;
+/* background-color: pin; */
+letter-spacing: 1px;
+word-spacing: 3px;
+width: 18em;
+color: black;
+}
+.email{
+    /* margin-right: 20em; */
+    padding:10px 10px;
+    border-radius: 5px;
+    width: 32em;
+    
+}
+.email:hover{
+    border: solid black 2px;
+}

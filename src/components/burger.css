@@ -1,0 +1,34 @@
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+.nav-links{
+    text-decoration: none;
+    color: white;
+    font-size: 37px;
+    font-weight: 600;
+    
+}
+.nav-links:hover{
+    /* color: grey; */
+    color: #1ed760;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+}
+.links:hover{
+    color: #1ed760;
+}
+.mobile-logo{
+  width: 86px;
+  height: 26px;
+  cursor: pointer;
+}
+.mobile-logo-section{
+     margin-top: 27px;
+}

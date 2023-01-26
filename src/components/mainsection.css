@@ -1,0 +1,105 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header_main{
+    background-color: #d4418e;
+    background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+    height: 40em;
+}
+.photo_section{
+    width: 40%;
+    margin-left: 10px;
+    /* background-color: yellow; */
+    height:33em;
+overflow: hidden;
+}
+.text_section{
+    width: 50%;
+    margin-top: 4em;
+    margin-left: 3em;
+    
+    
+}
+    .heading {
+        font-weight: 800;
+        font-size: 59px;
+        margin-bottom: 1em;
+    }
+    .photo_section img{
+        width: 23em;
+        height: 40em;
+        float:right;
+        margin-right: 2em;
+        
+    }
+    .main_button{
+        text-decoration: none;
+        color: black;
+       background-color: white;
+       padding: 14px 45px;
+       border-radius: 29px;
+     font-weight: 500;
+     transition: 0.6ms;
+    }
+    .main_button:hover{
+        background: none;
+        color: white;
+        border: solid white 2px;
+    }
+    .cont{
+       padding-top: 7em;
+    }
+    .spans{
+        background-color: #d4418e;
+        background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+        width: 12em;
+        height: 12em;
+        border-radius: 50%;
+        align-items: center;
+    
+    }
+    .dib{
+        margin-top: 3em;
+        display: flex;
+        justify-content: center;
+        column-gap: 6em;
+        height: 26em;
+    }
+
+    @media (max-width:768px) {
+        
+        .photo_section{
+            display: none;
+        }
+        .text_section{
+            font-size: 20px;
+            margin-top: 0;
+            margin-left: 0;
+            width: 100%;
+        
+        }
+        .heading{
+            font-size: 43px;
+              font-weight: 700;        
+        }
+        .header_main{
+            height: 26em;
+        }
+       
+    }
+    @media (max-width:1000px){
+
+        .dib{
+            flex-direction: column;
+            align-items: center;
+            display: inline;
+           
+            }
+            .spans{
+                margin-top: 3em;
+            }
+            .below768{
+                margin-top: 2em;
+            }
+    }

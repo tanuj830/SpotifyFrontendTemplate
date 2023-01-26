@@ -1,0 +1,33 @@
+.header_container{
+   background: rgba(0, 0, 0, 0.322);
+   /* background-color: black;  */
+   height: 5em;
+    font-weight:700;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+.logo{
+    width: 129px;
+    height: 40px;
+    margin-top: 1em;
+}
+.header_span{
+        margin-top: 25px;
+        margin-left: 2em;
+}
+.forhover{
+    text-decoration: none;
+    color: white;
+} 
+.forhover:hover{
+    color: #1ed760;
+}
+
+@media (max-width:768px) {
+ 
+     .header_container{
+         background-color: black;
+     }
+}
+
