@@ -13,7 +13,7 @@ const Burger = () => {
   <div className="offcanvas-header d-flex flex-item-column">
     {/* <h5 id="offcanvasRightLabel">Offcanvas right</h5> */}
  
-    <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    {/* <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> */}
   </div>
   <div className="offcanvas-body maindiv">
  <span ><Link  id="offcanvasRightLabel" className="nav-links " to="">Premium</Link></span> 
